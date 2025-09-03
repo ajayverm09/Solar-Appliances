@@ -8,10 +8,13 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Blogs from "./Pages/Blogs";
 import SingleBlog from "./Pages/SingleBlog";
+import ScrollToTop from './Components/ScrollToTop'
+
 function App() {
   return (
     <>
       <BrowserRouter>
+      <ScrollToTop/>
         <div>
           <Navbar />
           <Routes>
